@@ -1,0 +1,42 @@
+#logoBar{
+    width: 40vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  #siteLogo{
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    background-color: #E0FBFC;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  }
+  
+  .pictures{
+    /* width: 70vw; */
+    display: inherit;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+  }
+  /* .image{
+    width: 9rem;
+    height: 9rem;
+  } */
+  .card{
+    box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 1.5vh 5vh 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6%;
+    margin: 2% 2% 4% 4%;
+    padding: 2% 2% 2% 2% ;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #FADDDD;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+  }
+  
+  
+  
