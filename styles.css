@@ -1,42 +1,104 @@
-#logoBar{
-    width: 40vw;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-  }
-  #siteLogo{
-    width: 100%;
-  }
-  
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+
   body {
-    display: flex;
-    background-color: #E0FBFC;
+    background-color: #EFEFF0;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  }
+
+  h2{
+    color: #283618;
+  }
+
+  p{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+  }
+
+  .top-bar{
+    border-bottom: solid;
+    padding: 0px 0px 40px 0px;
+    margin: 20px 0px 20px 0px;
+    display:flex;
+    justify-content: center;
+  }
+
+  .section h1{
+    padding-left: 130px;
+    color: #933414;
+  }
+
+  .section{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1); */
+
+  }
+
+  #intro{
+    padding-top: 30px;
   }
   
   .pictures{
-    /* width: 70vw; */
-    display: inherit;
+    display: flex;
     flex-flow: row wrap;
-    align-content: space-around;
-    justify-content: space-around;
-  }
-  /* .image{
-    width: 9rem;
-    height: 9rem;
-  } */
-  .card{
-    box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 1.5vh 5vh 0 rgba(0, 0, 0, 0.19);
-    border-radius: 6%;
-    margin: 2% 2% 4% 4%;
-    padding: 2% 2% 2% 2% ;
-    flex-wrap: wrap;
-    text-align: center;
-    background-color: #FADDDD;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70rem;
+    height: 25rem;
+    align-items: center;
     justify-content: center;
+    /* overflow: hidden; Hides any overflow of the image */
+    border-left: solid;
+    margin-left: 200px;
+
+  }
+
+  .pictures img{
+    max-width: 100%;
+    max-height: 100%;
   }
   
-  
-  
+.image{
+    padding: 35px 35px 35px 35px;
+}
+
+.subunit {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.unknown img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    border-left: solid;
+    padding-left: 100px;
+}
+
+.unknown{
+    display: flex;
+    align-items: center;
+    margin-left: 265px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    flex-flow: column wrap;
+}
+
+#line {
+    width: 800px;
+    margin: auto;
+    border-top: 5px solid #F4B3B3;
+    border-radius: 5px;
+}
